@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web", "FabrikamFiber.Web\FabrikamFiber.Web.csproj", "{456D6BF0-21B0-4995-9D77-76FA13AD95DA}"
 EndProject
@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8E82AE6A-09E7-4F4B-B291-80226FE9ED81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +60,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FE8E250-4218-4B31-AB23-D9B91ABD842B} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
+		{5F674CB4-3098-40B2-9EFD-5D754348974D} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
+		{7B9028A6-73A9-4CC3-BBA9-5CD129D6BEC3} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
+		{CD648A7E-1318-40DD-8F99-4EE53F2938EA} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01A88D26-FD57-453C-8D88-31D5AB46609A}

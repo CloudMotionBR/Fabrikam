@@ -1,4 +1,5 @@
 using Ninject.Web.Common;
+using Ninject.Web.Common.WebHost;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(FabrikamFiber.Web.App_Start.NinjectMVC3), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(FabrikamFiber.Web.App_Start.NinjectMVC3), "Stop")]
