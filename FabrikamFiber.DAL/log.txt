@@ -1,0 +1,43 @@
+2021-03-26 16:03:32.511 -03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.200-preview.21077.7\
+2021-03-26 16:03:32.544 -03:00 [INF] Registered 1 extensions:
+	Default extension
+2021-03-26 16:03:34.025 -03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-03-26 16:03:34.034 -03:00 [INF] Setting entrypoint to only project in solution: D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL\FabrikamFiber.DAL.csproj
+2021-03-26 16:03:34.042 -03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-03-26 16:03:34.109 -03:00 [INF] Initializing upgrade step Back up project
+2021-03-26 16:03:37.074 -03:00 [INF] Applying upgrade step Back up project
+2021-03-26 16:03:39.260 -03:00 [INF] Backing up D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL to D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL.backup
+2021-03-26 16:03:39.281 -03:00 [WRN] Could not copy file D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL\log.txt due to 'The process cannot access the file 'D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL\log.txt' because it is being used by another process.'
+2021-03-26 16:03:40.183 -03:00 [INF] Project backed up to D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL.backup
+2021-03-26 16:03:40.188 -03:00 [INF] Upgrade step Back up project applied successfully
+2021-03-26 16:03:41.252 -03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-03-26 16:03:42.755 -03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-03-26 16:03:42.762 -03:00 [INF] Converting project file format with try-convert, version 0.7.216201
+2021-03-26 16:03:43.972 -03:00 [INF] [try-convert] D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL\FabrikamFiber.DAL.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-03-26 16:03:45.758 -03:00 [INF] [try-convert] This project has an unrecognized custom import which may need reviewed after conversion: EntityFramework.props
+2021-03-26 16:03:45.763 -03:00 [INF] [try-convert] This project has an unrecognized custom import which may need reviewed after conversion: EntityFramework.targets
+2021-03-26 16:03:47.445 -03:00 [INF] [try-convert] Conversion complete!
+2021-03-26 16:03:47.903 -03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-03-26 16:03:53.210 -03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-03-26 16:04:00.208 -03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-03-26 16:04:03.792 -03:00 [FTL] Unexpected exception analyzing package references for: D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL\FabrikamFiber.DAL.csproj
+NuGet.Protocol.Core.Types.FatalProtocolException: Unable to load the service index for source https://pkgs.dev.azure.com/tshooter/_packaging/Stable/nuget/v3/index.json.
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at NuGet.Protocol.HttpSource.<>c__DisplayClass15_0`1.<<GetAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at NuGet.Common.ConcurrencyUtilities.ExecuteWithFileLockedAsync[T](String filePath, Func`2 action, CancellationToken token)
+   at NuGet.Common.ConcurrencyUtilities.ExecuteWithFileLockedAsync[T](String filePath, Func`2 action, CancellationToken token)
+   at NuGet.Protocol.HttpSource.GetAsync[T](HttpSourceCachedRequest request, Func`2 processAsync, ILogger log, CancellationToken token)
+   at NuGet.Protocol.ServiceIndexResourceV3Provider.GetServiceIndexResourceV3(SourceRepository source, DateTime utcNow, ILogger log, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at NuGet.Protocol.ServiceIndexResourceV3Provider.GetServiceIndexResourceV3(SourceRepository source, DateTime utcNow, ILogger log, CancellationToken token)
+   at NuGet.Protocol.ServiceIndexResourceV3Provider.TryCreate(SourceRepository source, CancellationToken token)
+   at NuGet.Protocol.Core.Types.SourceRepository.GetResourceAsync[T](CancellationToken token)
+   at NuGet.Protocol.PackageMetadataResourceV3Provider.TryCreate(SourceRepository source, CancellationToken token)
+   at NuGet.Protocol.Core.Types.SourceRepository.GetResourceAsync[T](CancellationToken token)
+   at Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageLoader.GetLatestVersionAsync(String packageName, Boolean includePreRelease, String[] packageSources, CancellationToken token) in /_/src/steps/Microsoft.DotNet.UpgradeAssistant.Steps.Packages/PackageLoader.cs:line 105
+   at Microsoft.DotNet.UpgradeAssistant.Steps.Packages.Analyzers.UpgradeAssistantReferenceAnalyzer.AnalyzeAsync(IProject project, PackageAnalysisState state, CancellationToken token) in /_/src/steps/Microsoft.DotNet.UpgradeAssistant.Steps.Packages/Analyzers/UpgradeAssistantReferenceAnalyzer.cs:line 51
+   at Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep.RunPackageAnalyzersAsync(IUpgradeContext context, CancellationToken token) in /_/src/steps/Microsoft.DotNet.UpgradeAssistant.Steps.Packages/PackageUpdaterStep.cs:line 206
+   at Microsoft.DotNet.UpgradeAssistant.Steps.Packages.PackageUpdaterStep.InitializeImplAsync(IUpgradeContext context, CancellationToken token) in /_/src/steps/Microsoft.DotNet.UpgradeAssistant.Steps.Packages/PackageUpdaterStep.cs:line 89
+2021-03-26 16:04:29.365 -03:00 [INF] Saving upgrade progress file at D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.DAL\.upgrade-assistant

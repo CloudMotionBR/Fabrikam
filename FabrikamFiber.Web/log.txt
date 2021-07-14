@@ -1,0 +1,49 @@
+2021-03-26 15:51:06.859 -03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.200-preview.21077.7\
+2021-03-26 15:51:07.034 -03:00 [INF] Registered 1 extensions:
+	Default extension
+2021-03-26 15:51:11.455 -03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-03-26 15:51:11.462 -03:00 [INF] Setting entrypoint to user selected project: D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\FabrikamFiber.Web.csproj
+2021-03-26 15:51:11.469 -03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-03-26 15:51:11.593 -03:00 [INF] Initializing upgrade step Back up project
+2021-03-26 15:51:16.716 -03:00 [INF] Applying upgrade step Back up project
+2021-03-26 15:51:20.463 -03:00 [INF] Backing up D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web to D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web.backup
+2021-03-26 15:51:20.571 -03:00 [WRN] Could not copy file D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\log.txt due to 'The process cannot access the file 'D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\log.txt' because it is being used by another process.'
+2021-03-26 15:51:29.550 -03:00 [INF] Project backed up to D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web.backup
+2021-03-26 15:51:29.555 -03:00 [INF] Upgrade step Back up project applied successfully
+2021-03-26 15:51:35.597 -03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-03-26 15:51:39.697 -03:00 [INF] Skipping upgrade step Convert project file to SDK style
+2021-03-26 15:51:39.702 -03:00 [INF] Upgrade step Convert project file to SDK style skipped
+2021-03-26 15:51:53.177 -03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-03-26 15:51:54.321 -03:00 [FTL] Package analysis failed (analyzer Duplicate reference analyzer
+2021-03-26 15:52:33.606 -03:00 [INF] Saving upgrade progress file at D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\.upgrade-assistant
+2021-03-26 15:52:37.345 -03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.200-preview.21077.7\
+2021-03-26 15:52:37.375 -03:00 [INF] Registered 1 extensions:
+	Default extension
+2021-03-26 15:52:38.810 -03:00 [INF] Loading upgrade progress file at D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\.upgrade-assistant
+2021-03-26 15:52:40.025 -03:00 [INF] Initializing upgrade step Back up project
+2021-03-26 15:52:40.031 -03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-03-26 15:52:50.225 -03:00 [INF] Skipping upgrade step Convert project file to SDK style
+2021-03-26 15:52:50.229 -03:00 [INF] Upgrade step Convert project file to SDK style skipped
+2021-03-26 15:52:58.163 -03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-03-26 15:52:59.357 -03:00 [FTL] Package analysis failed (analyzer Duplicate reference analyzer
+2021-03-26 15:55:19.576 -03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-03-26 15:55:21.085 -03:00 [FTL] Package analysis failed (analyzer Duplicate reference analyzer
+2021-03-26 15:55:21.090 -03:00 [WRN] Upgrade step Clean up NuGet package references failed: "Failed": Package analysis failed
+2021-03-26 15:58:12.442 -03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-03-26 15:58:13.976 -03:00 [FTL] Package analysis failed (analyzer Duplicate reference analyzer
+2021-03-26 15:58:13.978 -03:00 [WRN] Upgrade step Clean up NuGet package references failed: "Failed": Package analysis failed
+2021-03-26 16:00:02.721 -03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-03-26 16:00:04.192 -03:00 [FTL] Package analysis failed (analyzer Duplicate reference analyzer
+2021-03-26 16:00:04.198 -03:00 [WRN] Upgrade step Clean up NuGet package references failed: "Failed": Package analysis failed
+2021-03-26 16:02:05.340 -03:00 [INF] Saving upgrade progress file at D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\.upgrade-assistant
+2021-03-26 16:02:38.420 -03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.200-preview.21077.7\
+2021-03-26 16:02:38.454 -03:00 [INF] Registered 1 extensions:
+	Default extension
+2021-03-26 16:02:40.115 -03:00 [INF] Loading upgrade progress file at D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\.upgrade-assistant
+2021-03-26 16:02:41.408 -03:00 [INF] Initializing upgrade step Back up project
+2021-03-26 16:02:41.419 -03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-03-26 16:02:45.885 -03:00 [INF] Skipping upgrade step Convert project file to SDK style
+2021-03-26 16:02:45.887 -03:00 [INF] Upgrade step Convert project file to SDK style skipped
+2021-03-26 16:02:50.631 -03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-03-26 16:02:51.837 -03:00 [FTL] Package analysis failed (analyzer Duplicate reference analyzer
+2021-03-26 16:03:18.630 -03:00 [INF] Saving upgrade progress file at D:\Projects\gh-cloudmotionbr\Fabrikam\FabrikamFiber.Web\.upgrade-assistant
