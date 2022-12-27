@@ -4,11 +4,7 @@ VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web", "FabrikamFiber.Web\FabrikamFiber.Web.csproj", "{456D6BF0-21B0-4995-9D77-76FA13AD95DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.Tests", "FabrikamFiber.Web.Tests\FabrikamFiber.Web.Tests.csproj", "{2FE8E250-4218-4B31-AB23-D9B91ABD842B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Extranet.Web", "FabrikamFiber.Extranet.Web\FabrikamFiber.Extranet.Web.csproj", "{A8E4732A-F2F0-4953-8946-46A1900F65A4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Extranet.Web.Tests", "FabrikamFiber.Extranet.Web.Tests\FabrikamFiber.Extranet.Web.Tests.csproj", "{5F674CB4-3098-40B2-9EFD-5D754348974D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.UnitTests", "FabrikamFiber.Web.Tests\FabrikamFiber.Web.UnitTests.csproj", "{2FE8E250-4218-4B31-AB23-D9B91ABD842B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.DAL", "FabrikamFiber.DAL\FabrikamFiber.DAL.csproj", "{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}"
 EndProject
@@ -37,14 +33,6 @@ Global
 		{2FE8E250-4218-4B31-AB23-D9B91ABD842B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE8E250-4218-4B31-AB23-D9B91ABD842B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE8E250-4218-4B31-AB23-D9B91ABD842B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8E4732A-F2F0-4953-8946-46A1900F65A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F674CB4-3098-40B2-9EFD-5D754348974D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,7 +51,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2FE8E250-4218-4B31-AB23-D9B91ABD842B} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
-		{5F674CB4-3098-40B2-9EFD-5D754348974D} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
 		{7B9028A6-73A9-4CC3-BBA9-5CD129D6BEC3} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
 		{CD648A7E-1318-40DD-8F99-4EE53F2938EA} = {8E82AE6A-09E7-4F4B-B291-80226FE9ED81}
 	EndGlobalSection

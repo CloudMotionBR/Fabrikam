@@ -1,5 +1,13 @@
-﻿namespace FabrikamFiber.Web
+﻿// alteração de exemplo
+
+
+/* mais uma alteração - agora no AIW */
+
+namespace FabrikamFiber.Web
 {
+
+    // mais uma alteração
+
     using System.Data.Entity;
     using System.Web.Mvc;
     using System.Web.Routing;

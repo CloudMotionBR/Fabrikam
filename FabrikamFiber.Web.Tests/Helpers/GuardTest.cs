@@ -1,4 +1,6 @@
-﻿namespace FabrikamFiber.Web.Tests.Helpers
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace FabrikamFiber.Web.Tests.Helpers
 {
     using System;
     using System.Collections.Generic;

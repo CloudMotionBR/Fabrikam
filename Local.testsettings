@@ -5,6 +5,7 @@
   <Execution hostProcessPlatform="MSIL">
     <TestTypeSpecific />
     <AgentRule name="Execution Agents">
+      <!-- Alteração -->
     </AgentRule>
   </Execution>
   <Properties>

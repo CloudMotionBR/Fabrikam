@@ -1,3 +1,5 @@
+using System;
+
 namespace FabrikamFiber.Web.Controllers
 {
     using System.Web.Mvc;
@@ -32,6 +34,8 @@ namespace FabrikamFiber.Web.Controllers
         [HttpPost]
         public ActionResult Create(Customer customer)
         {
+            if(customer == null) throw new ArgumentNullException();
+            
             //check model state
             if (ModelState.IsValid)
             {

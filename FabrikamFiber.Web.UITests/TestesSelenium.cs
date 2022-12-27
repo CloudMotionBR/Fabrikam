@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.PhantomJS;
+//using OpenQA.Selenium.PhantomJS;
 
 namespace FabrikamFiber.Web.UiTests_v14
 {
@@ -19,13 +19,13 @@ namespace FabrikamFiber.Web.UiTests_v14
             InserirRegistro(driver);
         }
 
-        [TestMethod]
-        public void Teste_Cadastro_Usando_PhantomJSDriver()
-        {
-            IWebDriver driver = new PhantomJSDriver();
+        //[TestMethod]
+        //public void Teste_Cadastro_Usando_PhantomJSDriver()
+        //{
+        //    IWebDriver driver = new PhantomJSDriver();
 
-            InserirRegistro(driver);
-        }
+        //    InserirRegistro(driver);
+        //}
 
         [TestMethod]
         public void Teste_Cadastro_Usando_HeadlessChromeDriver()
